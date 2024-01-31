@@ -1,0 +1,855 @@
+repo_name: rongfengliang/immutable-js
+report_id: 0337a3628e03cbdcfe98830c6664e807
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:01:34+00:00'
+requested_by: web-flow
+provider: github
+branch: master
+detected_tools_count: 59
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rongfengliang/immutable-js
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/rongfengliang/immutable-js
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.13.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 03:47:18.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-12-05 23:46:17.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Thomas Boyt
+  last_updated_on: 2016-02-06 21:53:54.000000000 Z
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  version: 5.11.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/pages/third_party/typescript/package.json
+  detection_source: pages/third_party/typescript/package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2015-12-16 04:23:56.000000000 Z
+- name: Code Climate
+  description: Automated Ruby Code Review
+  website_url: https://codeclimate.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/305/KFgYaUkK.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/pages/third_party/typescript/package.json
+  detection_source: pages/third_party/typescript/package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2015-12-16 04:23:56.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: Thomas Boyt
+  last_updated_on: 2016-02-06 21:53:54.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js
+  detection_source: Repo Metadata
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  version: 0.4.5
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: Istanbul
+  description: A JS code coverage tool written in JS
+  website_url: http://gotwarlost.github.io/istanbul/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2105/default_78659c552327b8ff3592c2aa1694ea92c974a8d5.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/pages/third_party/typescript/package.json
+  detection_source: pages/third_party/typescript/package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2015-12-16 04:23:56.000000000 Z
+- name: JSHint
+  description: A Static Code Analysis Tool for JavaScript
+  website_url: http://www.jshint.com/about/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2014-05-29 02:33:53.000000000 Z
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2014-12-30 18:19:07.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 17.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2014-05-29 02:33:53.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/pages/third_party/typescript/package.json
+  detection_source: pages/third_party/typescript/package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2015-12-16 04:23:56.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Josh Kalderimis
+  last_updated_on: 2014-11-21 03:36:27.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 3.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/pages/third_party/typescript/package.json
+  detection_source: pages/third_party/typescript/package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2015-12-16 04:23:56.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: Bluebird
+  description: A full featured promise library with unmatched performance
+  website_url: https://github.com/petkaantonov/bluebird/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/11991/bb.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js
+  detection_source: Repo Metadata
+- name: flow-bin
+  website_url: github.com/flowtype/flow-bin
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8085/15352388.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wojtek Czekalski
+  last_updated_on: 2016-12-06 05:54:57.000000000 Z
+- name: acorn
+  description: ECMAScript parser
+  package_url: https://www.npmjs.com/acorn
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16344/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 4.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wojtek Czekalski
+  last_updated_on: 2016-12-06 05:54:57.000000000 Z
+- name: benchmark
+  description: A benchmarking library that supports high-resolution timers &amp; returns
+    statistically significant results
+  package_url: https://www.npmjs.com/benchmark
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16241/default_cbc604730ab04341982d806fe402cd0706cc8bf4.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: codeclimate-test-reporter
+  description: Code Climate test reporter client for javascript projects
+  package_url: https://www.npmjs.com/codeclimate-test-reporter
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16409/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/pages/third_party/typescript/package.json
+  detection_source: pages/third_party/typescript/package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2015-12-16 04:23:56.000000000 Z
+- name: colors
+  description: Get colors in your node.js console
+  package_url: https://www.npmjs.com/colors
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2014-05-29 02:33:53.000000000 Z
+- name: estraverse
+  description: ECMAScript JS AST traversal functions
+  package_url: https://www.npmjs.com/estraverse
+  version: 1.9.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16785/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-04-18 22:03:22.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.13.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 03:47:18.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: flow-bin
+  description: Binary wrapper for Flow - A static type checker for JavaScript
+  package_url: https://www.npmjs.com/flow-bin
+  version: 0.36.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15957/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wojtek Czekalski
+  last_updated_on: 2016-12-06 05:54:57.000000000 Z
+- name: grunt-cli
+  description: The grunt command line interface
+  package_url: https://www.npmjs.com/grunt-cli
+  version: 0.1.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: grunt-contrib-clean
+  description: Clean files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-clean
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: grunt-contrib-copy
+  description: Copy files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-copy
+  version: 0.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: grunt-contrib-jshint
+  description: Validate files with JSHint
+  package_url: https://www.npmjs.com/grunt-contrib-jshint
+  version: 0.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: grunt-release
+  description: Release a new version of your Node-based project
+  package_url: https://www.npmjs.com/grunt-release
+  version: 0.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16336/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  version: 2.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: gulp-filter
+  description: Filter files in a `vinyl` stream
+  package_url: https://www.npmjs.com/gulp-filter
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16385/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: gulp-header
+  description: Gulp extension to add header to file
+  package_url: https://www.npmjs.com/gulp-header
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16259/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: gulp-jshint
+  description: JSHint plugin for gulp
+  package_url: https://www.npmjs.com/gulp-jshint
+  version: 1.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16050/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: gulp-less
+  description: Less for Gulp
+  package_url: https://www.npmjs.com/gulp-less
+  version: 3.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16267/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: gulp-size
+  description: Display the size of your project
+  package_url: https://www.npmjs.com/gulp-size
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16655/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: gulp-sourcemaps
+  description: Source map support for Gulp.js
+  package_url: https://www.npmjs.com/gulp-sourcemaps
+  version: 1.6.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15958/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-12-05 23:46:17.000000000 Z
+- name: gulp-uglify
+  description: Minify files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglify
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: gulp-util
+  description: Utility functions for gulp plugins
+  package_url: https://www.npmjs.com/gulp-util
+  version: 3.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15912/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-02-25 07:10:41.000000000 Z
+- name: jake
+  description: JavaScript build tool, similar to Make or Rake
+  package_url: https://www.npmjs.com/jake
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18060/image.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/pages/third_party/typescript/package.json
+  detection_source: pages/third_party/typescript/package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2015-12-16 04:23:56.000000000 Z
+- name: jshint-stylish
+  description: Stylish reporter for JSHint
+  package_url: https://www.npmjs.com/jshint-stylish
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16031/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: magic-string
+  description: Modify strings, generate sourcemaps
+  package_url: https://www.npmjs.com/magic-string
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17689/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 0.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Regular Expression Denial of Service in marked
+    cve_id: CVE-2017-16114
+    cve_url: https://github.com/advisories/GHSA-x5pg-88wf-qq4p
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.3.9
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Content injection in marked
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-wjmf-58vc-xqjr
+    detected_date: Aug 13
+    severity: moderate
+    first_patched: 0.3.9
+  - name: Cross-Site Scripting in marked
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8wp3-cp9v-44fm
+    detected_date: Aug 13
+    severity: moderate
+    first_patched: 0.3.9
+  - name: Sanitization bypass using HTML Entities in marked
+    cve_id: CVE-2016-10531
+    cve_url: https://github.com/advisories/GHSA-vfvf-mqq8-rwqc
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.3.6
+  - name: Moderate severity vulnerability that affects marked
+    cve_id: CVE-2017-17461
+    cve_url: https://github.com/advisories/GHSA-crmx-v835-hcp4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.3.9
+  - name: Marked vulnerable to XSS from data URIs
+    cve_id: CVE-2017-1000427
+    cve_url: https://github.com/advisories/GHSA-7px7-7xjx-hxm8
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.3.7
+- name: microtime
+  description: Get the current time in microseconds
+  package_url: https://www.npmjs.com/microtime
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17626/default_e98b11d23d67b728bd1f3e02eba62d97a55febbd.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-04-17 03:25:00.000000000 Z
+- name: react-router
+  description: A complete routing library for React
+  package_url: https://www.npmjs.com/react-router
+  version: 0.11.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16058/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-12-05 23:46:17.000000000 Z
+- name: react-tools
+  description: A set of complementary tools to React
+  package_url: https://www.npmjs.com/react-tools
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16892/default_2e3ed47575edcaf407097e6171e3d4cb8681a6b3.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-12-05 23:46:17.000000000 Z
+- name: run-sequence
+  description: Run a series of dependent gulp tasks in order
+  package_url: https://www.npmjs.com/run-sequence
+  version: 1.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16004/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: through2
+  description: A tiny wrapper around Node.js streams.Transform
+  package_url: https://www.npmjs.com/through2
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15948/default_fdb56d0865cbc86d9157d5e33f9313d760ed0e83.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: uglify-js
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/uglify-js
+  version: 2.6.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15900/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: vinyl-buffer
+  description: Convert streaming vinyl files to use buffers
+  package_url: https://www.npmjs.com/vinyl-buffer
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16203/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-01-06 03:08:30.000000000 Z
+- name: vinyl-source-stream
+  description: Use conventional text streams at the start of your gulp or vinyl pipelines
+  package_url: https://www.npmjs.com/vinyl-source-stream
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16081/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/rongfengliang/immutable-js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Lee Byron
+  last_updated_on: 2016-12-05 23:46:17.000000000 Z
